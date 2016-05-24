@@ -7,18 +7,18 @@
 
 ## Installation
 
-TypeDoc runs on Node.js and is available as an NPM package. You can install TypeDoc
-in your project's directory as usual:
+For unknown reasons TypeDoc do not install on some windows configuration using git or https protocol. You can install TypeDoc
+in your project's directory using the latest tarball:
 
 ```bash
-$ npm install typedoc --save-dev
+$ npm install https://github.com/didje/typedoc/archive/master.tar.gz --save-dev
 ```
 
 Like the TypeScript compiler, TypeDoc comes with a binary that can be called from anywhere
 if you install TypeDoc as a global module. The name of the executable is ``typedoc``.
 
 ```bash
-$ npm install typedoc --global
+$ npm install https://github.com/didje/typedoc/archive/master.tar.gz --global
 $ typedoc
 ```
 
